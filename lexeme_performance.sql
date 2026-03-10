@@ -1,3 +1,16 @@
+/*
+This query identifies the most difficult words for learners.
+question: Which vocabulary words cause the most difficulty for learners?    
+This helps:
+
+Improve lesson design
+
+Add extra practice for difficult words
+
+Identify confusing vocabulary
+
+
+*/
 SELECT 
     lexeme_string AS word,
     SUM(session_seen) AS total_attempts,

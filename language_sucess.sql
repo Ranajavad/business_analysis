@@ -1,3 +1,12 @@
+/* This query compares performance and engagement across different languages being learned.
+questions: Which languages are most popular and how successful are learners in each language?
+This helps analyze:
+Language popularity
+
+Language learning difficulty
+
+Overall memory recall success
+*/
 SELECT 
     learning_language,
     COUNT(DISTINCT user_id) AS unique_learners,
