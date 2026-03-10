@@ -3,3 +3,4 @@ python==3.13.12
 pandas==3.0.0  
 openpyxl==3.1.5      
 matplotlib==3.10.8    
+sqlalchemy==2.0.45  
