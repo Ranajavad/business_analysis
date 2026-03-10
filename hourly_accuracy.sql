@@ -1,3 +1,12 @@
+/*This query analyzes learning performance depending on the hour of the day.   
+Question:At what time of the day do users perform best when learning languages?
+This helps analyze:
+
+When memory recall is strongest
+
+When accuracy is highest
+
+When users practice most */
 SELECT 
     EXTRACT(HOUR FROM timestamp) AS hour_of_day,
     -- Calculate average memory strength as a percentage
